@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #222;
+}
+.card {
+  background: skyblue;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.card input {
+  padding: 1rem;
+  border-radius: 20px;
+  border: none;
+}
+.card button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.weather {
+  margin-bottom: 30px;
+}
+.details {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+/* .left {
+  display: flex;
+  text-align: left;
+} */
+.weather {
+  display: none;
+}
+.error {
+  font-size: 1rem;
+  margin-top: 12px;
+  text-align: left;
+  color: red;
+  display: none;
+}
